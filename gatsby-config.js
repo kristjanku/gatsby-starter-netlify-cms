@@ -33,13 +33,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    'gatsby-transformer-json',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/data/`,
-      },
-    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
