@@ -29,7 +29,7 @@ module.exports = {
         plugins: [],
       },
     },
-    {
+  //  {
   //      resolve: 'gatsby-transformer-json',
   //      options: {
   //         typeName: 'json', // a fixed string
