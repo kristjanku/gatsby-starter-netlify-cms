@@ -1,0 +1,10 @@
+{
+  "templateKey": "blog-post",
+  "title": "test",
+  "date": "2018-10-03T15:53:26+03:00",
+  "description": "test",
+  "body": "test",
+  "tags": [
+    "test"
+  ]
+}
