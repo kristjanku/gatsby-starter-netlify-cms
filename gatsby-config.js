@@ -36,6 +36,7 @@ module.exports = {
   //         typeName: 'json', // a fixed string
   //     },
   // },
+
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
