@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    //'gatsby-transformer-json',
+    'gatsby-transformer-json',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -13,13 +13,6 @@ module.exports = {
         name: 'pages',
       },
     },
-    {
-       resolve: 'gatsby-transformer-json',
-          options: {
-            typeName: 'Json', // a fixed string
-          },
-     ,
-
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -29,12 +22,18 @@ module.exports = {
     },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [],
-      },
-    },
+//    {
+//      resolve: 'gatsby-transformer-remark',
+//      options: {
+//        plugins: [],
+//      },
+//    },
+//    {
+//        resolve: 'gatsby-transformer-json',
+//        options: {
+//            typeName: 'Json', // a fixed string
+//        },
+//    },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
