@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    //'gatsby-transformer-json',
+    'gatsby-transformer-json',
     //'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
@@ -30,11 +30,11 @@ module.exports = {
       },
     },
     {
-        resolve: 'gatsby-transformer-json',
-        options: {
-            typeName: 'json', // a fixed string
-        },
-    },
+  //      resolve: 'gatsby-transformer-json',
+  //      options: {
+  //         typeName: 'json', // a fixed string
+  //     },
+  // },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
